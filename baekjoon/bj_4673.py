@@ -5,7 +5,7 @@ numbers = []
 remove_list = []
 
 # numbers[]에 10000까지 숫자를 넣어놓기
-for i in range(ㄴ1,10001,1):
+for i in range(1,10001,1):
     numbers.append(i)
     
 for num in numbers:
