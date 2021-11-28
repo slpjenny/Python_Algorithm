@@ -22,5 +22,6 @@ def solution(n, lost, reserve):
                 borrow_done.append(i)  # 3으로 2를 빌려줌
 
     answer = min_student + len(reserve_set)
+    print(answer)
 
     return answer
